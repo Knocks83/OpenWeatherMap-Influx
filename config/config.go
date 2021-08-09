@@ -21,5 +21,5 @@ const (
 // OpenWeatherMap
 const (
 	APIEndpoint  = "https://api.openweathermap.org/data/2.5/" // Endpoint used to send requests to the Thermostat
-	RequestDelay = 60                                         // Make a request every minute
+	RequestDelay = 600                                        // Make a request every 10 minutes (that's the update rate on their platform)
 )
