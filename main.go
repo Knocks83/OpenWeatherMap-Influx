@@ -120,8 +120,6 @@ func main() {
 		writeAPI.WritePoint(p)
 		writeAPI.Flush()
 
-		fmt.Println(dt)
-
 		time.Sleep(config.RequestDelay * time.Second)
 	}
 }
