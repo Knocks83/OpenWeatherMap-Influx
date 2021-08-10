@@ -1,7 +1,7 @@
 package main
 
 import (
-	"OpenWeatherMap-influx/m/v2/config"
+	"OpenWeatherMap-influx/config"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"

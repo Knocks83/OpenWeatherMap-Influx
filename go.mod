@@ -1,4 +1,4 @@
-module OpenWeatherMap-influx/m/v2
+module OpenWeatherMap-influx
 
 go 1.16
 
