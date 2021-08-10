@@ -115,7 +115,7 @@ func main() {
 		p := influxdb2.NewPointWithMeasurement(config.InfluxMeasurementName).
 			AddTag("serviceName", "OpenWeatherMap").
 			AddField("temperature", temperature).
-			AddField("humidity", humidity).
+			AddField("humidity", int16(humidity)).
 			SetTime(relTime)
 		writeAPI.WritePoint(p)
 		writeAPI.Flush()
